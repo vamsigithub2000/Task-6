@@ -1,0 +1,130 @@
+<html lang="en">
+
+<head>
+
+    <title>Doctor signup</title>
+</head>
+
+<body>
+    <header>
+        <center>
+            <font color="green" size="6" face="times new roman">
+                <h1>APOLLO HOSPITALS</h1>
+            </font>
+            <font color="#85929E" size="4" face="times new roman">
+                <p><b><a href="home.html">About Apollo |</a></b><b><a href="branches.html">About Branches |
+                        </a></b><b><a href="services.html">Apollo Services | </a></b><b><a href="contact.html">Contact
+                            us |&nbsp; </a></b><b><a href="doctors.html">Our Doctors | </a></b><b><a
+                            href="labs.html">Our Labs |</a></b><b><a href="doctorsignup.html">Doctor signup | </a></b><b><a
+                            href="doctorlogin.html">Doctors signin |</a></b><b><a href="patientsignup.html">Patient signup |
+                        </a></b><b><a href="patientlogin.html">Patient signin |</a></b></p>
+            </font>
+        </center>
+    </header>
+    <hr>
+    
+    <form action="server1" method="post" name="form0" style="background-color: silver;">
+        <h1 align="center"> <u>Doctor Registration Form</u></h1>
+        <table align="center" cellpadding="12px" cellspacing="0px">
+            <tr>
+                <td><label for="fname">First Name</label><br>
+                    <input type="text" id="fname" name="fname">
+                </td>
+
+                <td><label for="lname">Last Name</label><br>
+                    <input type="text" id="lname" name="lname">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="username">Username</label><br>
+                    <input type="text" id="username" name="username" required>
+                </td>
+                <td><label for="password">password</label><br>
+                <input type="password" id="password" name="password"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label><br>
+                    <input type="email" id="email" name="email">
+                </td>
+
+                <td><label for="mobile">Mobile Number</label><br>
+                    <input type="text" id="mobile" name="mobile" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="specialist">Specialist in</label><br>
+                <select name="specialist" id="specialist">
+                    <option value="please">Please select a specialist</option>
+                    <option value="cardio">caridiologist</option>
+                    <option value="ortho">orthiologist</option>
+                    <option value="gynco">Gyncologist</option>
+                    <option value="psycho">psychologist</option>
+                </select>
+            </td>
+            <td>
+                <label for="city">city</label><br>
+                <select name="city" id="city">
+                    <option value="gp">please select city</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </td>
+
+            </tr>
+            <tr>
+                <td><label for="specialist">State</label><br>
+                    <select name="state" id="state">
+                        <option value="ps">Please select a state</option>
+                        <option value="ap">andhra pradeshcaridiologist</option>
+                        <option value="arp">arunachal pradesh</option>
+                        <option value="ts">telangana</option>
+                        <option value="ben">Banglore</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="city">city</label><br>
+                    <select name="city" id="city">
+                        <option value="gp">please select city</option>
+                        <option value="nsp">narsapuram</option>
+                        <option value="bvrm">bhimvaram</option>
+                        <option value="pkl">palacollu</option>
+                        <option value="mgl">mogaltur</option>
+                    </select>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">address</label><br>
+                    <textarea name="address" id="address" cols="30" rows="6"></textarea>
+                </td>
+                <td>
+                    <label for="code">Code</label><br>
+                    <input type="text" name="code" id="code"><br><br>
+                    <input type="submit" style="background-color: blue; height: 50px; width: 80px;">
+                </td>
+            </tr>
+            
+
+
+
+
+
+
+
+
+
+
+        </table>
+
+    </form>
+    <hr>
+    <footer>
+        <center>
+            <font color="blck" size="6"><i><b>copyright@vamsi</b></i></font>
+        </center>
+    </footer>
+
+</body>
+
+</html>
